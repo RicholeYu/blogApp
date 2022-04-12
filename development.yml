@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  blog:
+    image: richole/blog
+    container_name: blog
+    ports:
+      - 3000:3000
+    network_mode: "bridge"
+    volumes:
+      - "./richoleBlog:/root/richoleBlog"
+    environment:
+      NODE_ENV: "development"

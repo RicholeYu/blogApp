@@ -1,0 +1,13 @@
+http:
+  port: 3000
+
+db:
+  mysql:
+    host: 'richole.cn'
+    port: 3306
+    database: 'blog'
+    account: 'root'
+    password: 'yudafu'
+
+blog:
+  publicRequestUrl: 'http://richole.cn:3000/public'
