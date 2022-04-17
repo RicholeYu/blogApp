@@ -4,7 +4,6 @@ import { ConfigService } from '@nestjs/config';
 import { Request } from 'express';
 import { mood } from 'src/orm/module';
 import { MoodAssetsUpload, MoodImageTextValidator } from './validate';
-import { isNotEmpty } from 'class-validator';
 
 @Controller('mood')
 export default class WeiboController {
