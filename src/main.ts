@@ -12,4 +12,5 @@ async function bootstrap() {
 
   await app.listen(config.http.port);
 }
+
 bootstrap();
